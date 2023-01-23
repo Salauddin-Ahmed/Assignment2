@@ -212,6 +212,52 @@ nav li {
     margin-left: 100px;
     margin-bottom: 100px;
 }
+.sec5-title{
+    font-size: 45px;
+    font-weight: 700px;
+    width: 40%;
+    line-height: 1.3em;
+    margin-left: 560px;
+}
+.sec5-part1 p {
+    font-size: 16px;
+    font-weight: 400px;
+    width: 40%;
+    line-height: 1.3em;
+    margin-left: 430px;
+
+    margin-bottom: 90px;
+    text-align: center;
+}
 .sponsors{
-    
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: antiquewhite;
+    width: 900px;
+    padding: 6px 200px;
+    border-radius: 8px;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 90px;
+}
+@media screen (max-width: 576px) {
+    nav { 
+        flex-direction: column;
+    }
+    .sponsors{
+        flex-direction: column;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+
+}
+@media screen (min-width: 577px) and (min-width: 980px){
+    nav { 
+        flex-direction: column;
+    }
+
 }
